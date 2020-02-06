@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Quizz</title>
+</head>
+<body>
+    <div class="container">
+        <header>Quizz Butt</header>
+        <section class="welcome">
+            <p>Selecione um avatar:</p>
+            <div class="selectAvatar">
+                <div class="avatar" onclick="setSelectedAvatar('PIRATE BUTT')">
+                    <img src="assets/pirate-butt.gif" />
+                    <p>PIRATE BUTT</p>
+                </div>
+                <div class="avatar" onclick="setSelectedAvatar('FRIDA BUTT')">
+                    <img src="assets/frida-butthlo.gif" />
+                    <p>FRIDA BUTT</p>
+                </div>
+                <div class="avatar" onclick="setSelectedAvatar('EINSTEIN BUTT')">
+                    <img src="assets/EinsteinButt.gif" />
+                    <p>EINSTEIN BUTT</p>
+                </div>
+                <div class="avatar" onclick="setSelectedAvatar('SUPERHERO BUTT')">
+                    <img src="assets/Superhero-butt.gif" />
+                    <p>SUPERHERO BUTT</p>
+                </div>
+            </div>
+            <div class="startGame">
+            <button id="startGameButton" type="button">Jogar</button>
+            </div>
+        </section>
+        <section>
+            <div id="time"></div>
+            <div id="quizz"></div>
+        </section>
+        <footer>
+            <p><a href="https://github.com/figueiredocamila">Powered by Camila Figueiredo</a></p>
+        </footer>
+    </div>
+</body>
+<script src="js/index.js"></script>
+<!-- <script>
+    function setSelectedAvatar(selectedAvatar){
+        localStorage.setItem('selectedAvatar', selectedAvatar);
+        console.log("Salvei o avatar: " + selectedAvatar);
+    }
+</script> -->
+</html>

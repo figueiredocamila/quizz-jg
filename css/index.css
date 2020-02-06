@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Sigmar One', cursive;
+}
+
+html {
+    font-size: 7px;
+}
+
+.container {
+    text-align: center;
+    width: 100vw;
+    display: block;
+}
+
+header {
+    padding: 1rem;
+    font-size: 5rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.selectAvatar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.avatar {
+    width: calc(50% - 1rem);
+    padding: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.avatar:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.avatar p {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+#rdAvatar {
+    display: none;
+}
+
+button {
+    padding: 0 1rem;
+    font-size: 3.5rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin: 1rem;
+}
+
+footer a{
+    margin: 2rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #000;
+
+}
+
+#quizz {
+    padding: 2rem 5rem;
+}
+
+#quizz h2 {
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+}
+
+#quizz p {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+#quizz p:hover {
+    color: #fff;
+    background-color: #000;
+
+}
+
