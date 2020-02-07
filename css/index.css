@@ -74,11 +74,12 @@ footer a{
 
 }
 
-#quizz {
+.quizz {
     padding: 2rem 5rem;
+    display: none;
 }
 
-#quizz h2 {
+.quizz h1 {
     padding: 1rem;
     border-radius: 10px;
     font-size: 2rem;
@@ -86,7 +87,7 @@ footer a{
     background-color: #000;
 }
 
-#quizz p {
+.answer {
     border: 1px solid black;
     padding: 1rem;
     border-radius: 10px;
@@ -95,9 +96,18 @@ footer a{
     margin: 1rem 0;
 }
 
-#quizz p:hover {
+.answer:hover {
     color: #fff;
     background-color: #000;
 
 }
 
+#time{
+    font-size: 3rem;
+    background-color: #000;
+    border-radius: 3rem;
+    width: 5rem;
+    color: #fff;
+    margin: 1rem;
+
+}

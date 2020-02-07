@@ -35,9 +35,21 @@
             <button id="startGameButton" type="button">Jogar</button>
             </div>
         </section>
-        <section>
+        <section class=quizz>
             <div id="time"></div>
-            <div id="quizz"></div>
+            <div>
+                <h1 id="question"></h1>
+                <p id="a" class="answer"></p>
+                <p id="b" class="answer"></p>
+                <p id="c" class="answer"></p>
+              </div>
+        </section>
+        <section class="fail">
+            
+        </section>
+        <section class="telaFinal">
+            <div class="mensagem"></div>
+            <div class="score"></div>
         </section>
         <footer>
             <p><a href="https://github.com/figueiredocamila">Powered by Camila Figueiredo</a></p>
@@ -45,6 +57,7 @@
     </div>
 </body>
 <script src="js/index.js"></script>
+<script src="js/quizz.js"></script>
 <!-- <script>
     function setSelectedAvatar(selectedAvatar){
         localStorage.setItem('selectedAvatar', selectedAvatar);
