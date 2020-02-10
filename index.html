@@ -37,6 +37,10 @@
         </section>
         <section class=quizz>
             <div id="time"></div>
+            <div id="timeIsUp" style="display: none">
+                <button id="startGameButton" type="button">Continuar</button>
+            </div>
+            <div id="progress"></div>
             <div>
                 <h1 id="question"></h1>
                 <p id="a" class="answer"></p>
@@ -47,17 +51,16 @@
         <section class="fail">
             
         </section>
-        <section class="telaFinal">
+            <div id="finalMessage"></div>
             <div class="mensagem"></div>
-            <div class="score"></div>
         </section>
         <footer>
             <p><a href="https://github.com/figueiredocamila">Powered by Camila Figueiredo</a></p>
         </footer>
     </div>
 </body>
+<script src="js/questions.js"></script>
 <script src="js/index.js"></script>
-<script src="js/quizz.js"></script>
 <!-- <script>
     function setSelectedAvatar(selectedAvatar){
         localStorage.setItem('selectedAvatar', selectedAvatar);

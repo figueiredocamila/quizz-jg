@@ -99,15 +99,19 @@ footer a{
 .answer:hover {
     color: #fff;
     background-color: #000;
-
 }
 
-#time{
+#time {
     font-size: 3rem;
     background-color: #000;
     border-radius: 3rem;
     width: 5rem;
     color: #fff;
+    margin: 1rem;
+}
+
+#progress {
+    font-size: 3rem;
     margin: 1rem;
 
 }
